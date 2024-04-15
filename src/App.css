@@ -1,13 +1,18 @@
-.navbar{
-  height: 50px;
+.navbar {
+  position: sticky;
+  top: 0;
+  height: 70px;
   background-color: rgb(229, 102, 238);
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  
 }
 
+/* .content {
+  padding-top: 50px;
+  overflow-y: auto; 
+} */
 .list{
   display: flex;
   align-items: center;
